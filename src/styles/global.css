@@ -304,8 +304,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-sm);
-  margin: 0 var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-md);
 }
 
 .logo {
@@ -347,7 +346,7 @@ nav {
 
 /* Hero section */
 .hero {
-  margin-top: 180px;
+  margin-top: 120px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -168,9 +168,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📞 Contact
 
 - **Website**: [binsout.app](https://binsout.app)
-- **Support**: support@binsout.app
-- **Privacy**: privacy@binsout.app
-- **Legal**: legal@binsout.app
+- **Support**: support@spicybackend.dev
+- **Privacy**: privacy@spicybackend.dev
+- **Legal**: legal@spicybackend.dev
 
 ## 🙏 Acknowledgments
 

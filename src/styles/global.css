@@ -330,7 +330,7 @@ nav {
 
 .nav-links {
   display: flex;
-  gap: var(--spacing-md);
+  gap: var(--spacing-sm);
   list-style: none;
   align-items: center;
 }
@@ -524,10 +524,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .nav-links {
-    gap: var(--spacing-lg);
-  }
-
   .features-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;

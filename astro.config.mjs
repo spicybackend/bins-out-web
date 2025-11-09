@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://spicybackend.github.io/bins-out-web",
+  site: "https://bins.spicybackend.dev/",
   output: "static",
   build: {
     assets: "assets",

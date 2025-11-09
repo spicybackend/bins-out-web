@@ -1,0 +1,22 @@
+{
+  "name": "bins-out-web",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Static website for Bins Out iPhone application",
+  "packageManager": "pnpm@10.20.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.0.0",
+    "@astrojs/check": "^0.3.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}

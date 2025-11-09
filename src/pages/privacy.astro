@@ -1,0 +1,256 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Privacy Policy - Bins Out"
+  description="Privacy policy for Bins Out app. We don't collect any personal data or track users."
+  keywords="privacy policy, data protection, no tracking, bins out"
+>
+  <div class="policy-page">
+    <div class="container">
+      <div class="policy-content">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last updated: December 2024</p>
+
+        <section>
+          <h2>Introduction</h2>
+          <p>
+            At Bins Out, we believe privacy is a fundamental right. This Privacy Policy explains how we handle information when you use our iPhone application "Bins Out" (the "App").
+          </p>
+          <p>
+            <strong>The short version:</strong> We don't collect, store, or transmit any of your personal data. Everything stays on your device.
+          </p>
+        </section>
+
+        <section>
+          <h2>Information We Don't Collect</h2>
+          <p>Bins Out is designed with privacy at its core. We do not collect, store, or have access to:</p>
+          <ul>
+            <li>Personal information (name, email, phone number, address)</li>
+            <li>Location data</li>
+            <li>Device identifiers</li>
+            <li>Usage analytics or telemetry</li>
+            <li>Crash reports</li>
+            <li>Any other personal or sensitive data</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>How Your Data is Stored</h2>
+          <p>
+            All data you enter into Bins Out (bin schedules, notification preferences, etc.) is stored locally on your device using iOS's built-in data storage mechanisms. This data:
+          </p>
+          <ul>
+            <li>Never leaves your device</li>
+            <li>Is not backed up to our servers</li>
+            <li>Is only accessible by the Bins Out app on your device</li>
+            <li>May be included in your device's iCloud backup (controlled by your iOS settings)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Notifications</h2>
+          <p>
+            Bins Out uses iOS's local notification system to remind you about bin collection days. These notifications:
+          </p>
+          <ul>
+            <li>Are generated entirely on your device</li>
+            <li>Do not require internet connectivity</li>
+            <li>Are not sent through external services</li>
+            <li>Can be disabled in your device's Settings app</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Home Screen Widget</h2>
+          <p>
+            The Bins Out home screen widget displays information from your local app data. This widget:
+          </p>
+          <ul>
+            <li>Only accesses data stored locally on your device</li>
+            <li>Does not make network requests</li>
+            <li>Updates using iOS's widget system</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Third-Party Services</h2>
+          <p>
+            Bins Out does not integrate with any third-party analytics, advertising, or data collection services. The app operates entirely independently on your device.
+          </p>
+        </section>
+
+        <section>
+          <h2>App Store and iOS</h2>
+          <p>
+            While Bins Out itself doesn't collect data, please note that:
+          </p>
+          <ul>
+            <li>Apple may collect data through the App Store (downloads, reviews, etc.) according to their privacy policy</li>
+            <li>iOS may collect system-level data according to your device settings and Apple's privacy policy</li>
+            <li>We have no access to or control over this Apple-collected data</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Data Security</h2>
+          <p>
+            Since all your data stays on your device, the security of your information depends on:
+          </p>
+          <ul>
+            <li>Your device's security settings (passcode, Face ID, Touch ID)</li>
+            <li>iOS's built-in security mechanisms</li>
+            <li>Your iCloud backup settings (if you choose to use iCloud backup)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Children's Privacy</h2>
+          <p>
+            Bins Out does not collect any information from anyone, including children under 13. The app can be safely used by users of all ages.
+          </p>
+        </section>
+
+        <section>
+          <h2>Changes to This Policy</h2>
+          <p>
+            If we make any changes to this Privacy Policy, we will update the "Last updated" date and post the new policy on this page. Since we don't collect contact information, we cannot notify users directly of changes.
+          </p>
+        </section>
+
+        <section>
+          <h2>Contact Us</h2>
+          <p>
+            If you have any questions about this Privacy Policy or the Bins Out app, please contact us at:
+          </p>
+          <p>
+            <strong>Email:</strong> <a href="mailto:privacy@binsout.app">privacy@binsout.app</a>
+          </p>
+        </section>
+
+        <section>
+          <h2>Your Rights</h2>
+          <p>
+            Since we don't collect or store any of your personal data, traditional data protection rights (access, deletion, portability, etc.) don't apply in the usual sense. However, you have complete control over your data:
+          </p>
+          <ul>
+            <li><strong>Access:</strong> All your data is visible within the app</li>
+            <li><strong>Deletion:</strong> You can delete individual items or uninstall the app to remove all data</li>
+            <li><strong>Portability:</strong> Your data stays on your device and moves with your device</li>
+            <li><strong>Control:</strong> You have complete control over what data you enter and when</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .policy-page {
+    min-height: 100vh;
+    padding: 120px 0 var(--spacing-4xl);
+  }
+
+  .policy-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--spacing-3xl);
+    background-color: var(--bg-secondary);
+    border-radius: var(--radius-2xl);
+    box-shadow: 0 4px 16px var(--shadow-light);
+  }
+
+  .policy-content h1 {
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-md);
+    color: var(--text-primary);
+    letter-spacing: -0.02em;
+  }
+
+  .last-updated {
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+    margin-bottom: var(--spacing-2xl);
+    padding-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .policy-content section {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .policy-content h2 {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    margin-bottom: var(--spacing-lg);
+    color: var(--text-primary);
+  }
+
+  .policy-content p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .policy-content ul {
+    margin: var(--spacing-lg) 0;
+    padding-left: var(--spacing-xl);
+  }
+
+  .policy-content li {
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.6;
+  }
+
+  .policy-content a {
+    color: var(--accent-color);
+    text-decoration: underline;
+    transition: color var(--transition-fast);
+  }
+
+  .policy-content a:hover {
+    color: var(--text-secondary);
+  }
+
+  .policy-content strong {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .policy-page {
+      padding: 100px 0 var(--spacing-2xl);
+    }
+
+    .policy-content {
+      padding: var(--spacing-2xl);
+      margin: 0 var(--spacing-md);
+    }
+
+    .policy-content h1 {
+      font-size: var(--font-size-2xl);
+    }
+
+    .policy-content h2 {
+      font-size: var(--font-size-lg);
+    }
+
+    .policy-content ul {
+      padding-left: var(--spacing-lg);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .policy-content {
+      padding: var(--spacing-xl);
+    }
+
+    .policy-content h1 {
+      font-size: var(--font-size-xl);
+    }
+  }
+</style>

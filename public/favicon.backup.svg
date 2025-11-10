@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" fill="#2c2c2c"/>
+
+  <!-- Bin body -->
+  <rect x="10" y="13" width="12" height="12" rx="1" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+
+  <!-- Bin lid -->
+  <rect x="8" y="10" width="16" height="2" rx="1" fill="#ffffff"/>
+
+  <!-- Bin handle -->
+  <rect x="13" y="7" width="6" height="4" rx="1" fill="none" stroke="#ffffff" stroke-width="1"/>
+
+  <!-- Simple lines for texture -->
+  <line x1="12" y1="17" x2="20" y2="17" stroke="#ffffff" stroke-width="0.5" opacity="0.6"/>
+  <line x1="12" y1="21" x2="20" y2="21" stroke="#ffffff" stroke-width="0.5" opacity="0.6"/>
+</svg>

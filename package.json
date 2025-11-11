@@ -2,7 +2,7 @@
   "name": "bins-out-web",
   "type": "module",
   "version": "1.0.0",
-  "description": "Static website for Bins Out iPhone application",
+  "description": "Static website for Bin Collection iPhone application",
   "packageManager": "pnpm@10.20.0",
   "scripts": {
     "dev": "astro dev",

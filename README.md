@@ -1,10 +1,10 @@
-# Bins Out - Website
+# Bin Collection - Website
 
-A modern, liquid glass-styled static website for the Bins Out iPhone application. Built with Astro and deployed to GitHub Pages.
+A modern, liquid glass-styled static website for the Bin Collection iPhone application. Built with Astro and deployed to GitHub Pages.
 
-## 🗑️ About Bins Out
+## 🗑️ About Bin Collection
 
-Bins Out is a simple iPhone app that helps you never miss bin collection day again. With smart notifications, a beautiful home screen widget, and flexible scheduling, it's the perfect solution for managing your waste collection reminders.
+Bin Collection is a simple iPhone app that helps you never miss bin day again. With smart notifications, a beautiful home screen widget, and flexible scheduling, it's the perfect solution for managing your waste collection reminders.
 
 ### Key Features
 
